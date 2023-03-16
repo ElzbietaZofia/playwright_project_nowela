@@ -2,15 +2,15 @@ import { expect, Locator, Page } from '@playwright/test'
 
 export class ContactForm {
 
-    readonly page: Page
+    	readonly page: Page
 	readonly contactTab: Locator 
-    readonly inputFormName: Locator 
+    	readonly inputFormName: Locator 
 	readonly inputFormMail: Locator
 	readonly inputFormMessage: Locator
 	readonly dropdownSubject: Locator
 	readonly submitFormButton: Locator
-    readonly successMessage: Locator
-    readonly errorMessage: Locator
+   	readonly successMessage: Locator
+    	readonly errorMessage: Locator
    
     
 
